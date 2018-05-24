@@ -1,0 +1,22 @@
+{
+  "name": "webpackenv",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "webpack": "webpack --mode development",
+    "start": "nodemon ./server.js --ignore public/build/*.js --watch ."
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.3"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.4",
+    "babel-preset-env": "^1.7.0",
+    "nodemon": "^1.17.5",
+    "webpack": "^4.8.3",
+    "webpack-cli": "^2.1.4"
+  }
+}
